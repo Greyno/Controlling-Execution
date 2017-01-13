@@ -28,7 +28,7 @@ public class GreetingTest {
     public void compareInputGillianNamesTest(){
         String expected = "Hi";
         String actual = greeting.compareInputNames("Gillian");
-        assertEquals("Hi", expected, actual);
+        assertEquals("I expected Hi", expected, actual);
     }
 
     @Test
