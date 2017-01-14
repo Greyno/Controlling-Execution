@@ -12,8 +12,7 @@ public class TooLargeTooSmall {
     int currentGuess;
     int trials;
 
-   //double computerGuess = (Math.random()*10.0) + 1.0;
-    double computerGuess = 10;
+   double computerGuess = Math.round(Math.random()*10) + 1;
 
     public int compareNumbers(int userInput){
         this.currentGuess = userInput;
@@ -58,6 +57,6 @@ public class TooLargeTooSmall {
             trials = trials + 1;
         }
         this.lastInput = currentGuess; //Got help from Jalisa to use 'this' properly
-        return trials; 
+        return trials;
     }
 }
