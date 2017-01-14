@@ -64,7 +64,26 @@ public class Main {
                 break;
             }
 
-        }
+            case 4: {
+                TooLargeTooSmall tooLargeTooSmall = new TooLargeTooSmall();
+                System.out.print("Lab CD13: What is your guess? ");
+                int inputNumber = scanner.nextInt();
 
+                String output = "";
+
+                do  {
+                    int result = tooLargeTooSmall.compareNumbers(inputNumber);
+                    output = tooLargeTooSmall.showResultOfComparison(result);
+                    System.out.println(output);
+
+                    System.out.println("Lab CD13: What is your guess? ");
+                    inputNumber = scanner.nextInt();
+
+                } while (inputNumber != tooLargeTooSmall.computerGuess);
+                break;
+            }
+
+        }
+    scanner.close();
     }
 }
