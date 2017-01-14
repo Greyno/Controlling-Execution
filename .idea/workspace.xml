@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9f8d731-6562-432e-b86a-0ce1a9ec1f0c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/reynoldstitko/gillian/Main.java" afterPath="$PROJECT_DIR$/src/main/java/reynoldstitko/gillian/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/reynoldstitko/gillian/TooLargeTooSmall.java" afterPath="$PROJECT_DIR$/src/main/java/reynoldstitko/gillian/TooLargeTooSmall.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/reynoldstitko/gillian/TooLargeTooSmallTest.java" afterPath="$PROJECT_DIR$/src/test/java/reynoldstitko/gillian/TooLargeTooSmallTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -82,8 +80,8 @@
       <file leaf-file-name="TooLargeTooSmall.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/reynoldstitko/gillian/TooLargeTooSmall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="497">
+              <caret line="60" column="23" lean-forward="false" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -823,7 +821,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1484315467524</updated>
-      <workItem from="1484315470740" duration="27334000" />
+      <workItem from="1484315470740" duration="27443000" />
     </task>
     <servers />
   </component>
@@ -860,7 +858,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27334000" />
+    <option name="totallyTimeSpent" value="27443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="34" width="1327" height="952" extended-state="0" />
@@ -1010,8 +1008,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/reynoldstitko/gillian/TooLargeTooSmall.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="497">
+          <caret line="60" column="23" lean-forward="false" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
           <folding />
         </state>
       </provider>

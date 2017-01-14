@@ -57,7 +57,7 @@ public class TooLargeTooSmall {
         } else {
             trials = trials + 1;
         }
-        this.lastInput = currentGuess;
-        return trials; //Got help from Jalisa
+        this.lastInput = currentGuess; //Got help from Jalisa to use 'this' properly
+        return trials; 
     }
 }
