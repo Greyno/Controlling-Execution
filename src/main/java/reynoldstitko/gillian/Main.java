@@ -76,9 +76,13 @@ public class Main {
                     output = tooLargeTooSmall.showResultOfComparison(result);
                     System.out.println(output);
 
-                    System.out.println("Lab CD13: What is your guess? ");
+                    System.out.print("Lab CD13: Guess a number between 1 and 10: ");
                     inputNumber = scanner.nextInt();
-
+                    if(inputNumber == tooLargeTooSmall.computerGuess){
+                        result = tooLargeTooSmall.compareNumbers(inputNumber);
+                        output = tooLargeTooSmall.showResultOfComparison(result);
+                        System.out.println(output);
+                    }
                 } while (inputNumber != tooLargeTooSmall.computerGuess);
                 break;
             }

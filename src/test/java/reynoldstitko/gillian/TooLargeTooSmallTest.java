@@ -61,4 +61,10 @@ public class TooLargeTooSmallTest {
         assertEquals("Expected 'Your guess was just right! You won!'", actual, expected);
     }
 
+    @Test
+    public void numberOfTrialsTest(){
+        int expected = 1;
+        int actual = tooLargeTooSmall.numberOfTrials();
+    }
+
 }

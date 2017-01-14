@@ -7,21 +7,28 @@ package reynoldstitko.gillian;
  */
 public class TooLargeTooSmall {
 
-    private int userInput;
-    private int numberOfTries;
-    private int currentValue;
+    private int lastInput;
     private String statement;
+    int currentGuess;
+    int trials;
 
    //double computerGuess = (Math.random()*10.0) + 1.0;
     double computerGuess = 10;
 
     public int compareNumbers(int userInput){
+        this.currentGuess = userInput;
         int comparisonResult;
         if(userInput < computerGuess){
+            numberOfTrials();
             comparisonResult = 1;
         } else if (userInput > computerGuess) {
+            numberOfTrials();
             comparisonResult = 2;
-        } else comparisonResult = 3;
+
+        } else {
+            numberOfTrials();
+            comparisonResult = 3;
+        }
         return comparisonResult;
     }
 
@@ -37,11 +44,20 @@ public class TooLargeTooSmall {
                 break;
             }
             case 3: {
-                statement = "Your guess was just right! You won!";
+                statement = "Your guess was right! You guessed it in " + trials + "!";
                 break;
             }
         }
         return statement;
     }
 
+    public int numberOfTrials() {
+        if(lastInput == currentGuess){
+            trials = trials;
+        } else {
+            trials = trials + 1;
+        }
+        this.lastInput = currentGuess;
+        return trials; //Got help from Jalisa
+    }
 }
